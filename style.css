@@ -1,0 +1,10 @@
+.line__item {
+    display: flex;
+    align-items: center;
+   
+    max-height: 25px;
+}
+
+.line__item > * + * {
+    margin-top: 10px,
+}
